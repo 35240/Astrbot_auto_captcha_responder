@@ -1,7 +1,8 @@
 name: auto_captcha_responder
 display_name: 自动验证码回复
 desc: 监听群消息并匹配常见验证码话术，自动回复提取内容
-help: 将本插件放入 AstrBot 的 data/plugins/auto_captcha_responder 目录并重启
+help: 将本插件上传到AstrBot
 version: v1.0.0
-author: your_name
-repo: https://example.com/auto_captcha_responder
+author: 35240
+repo: https://github.com/35240/Astrbot_auto_captcha_responder
+
