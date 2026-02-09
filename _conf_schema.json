@@ -1,0 +1,33 @@
+{
+  "enabled": {
+    "description": "是否启用自动验证码回复",
+    "type": "bool",
+    "default": true
+  },
+  "require_at_bot": {
+    "description": "仅在消息艾特机器人时触发",
+    "type": "bool",
+    "default": true
+  },
+  "quote_message": {
+    "description": "回复时是否引用原消息",
+    "type": "bool",
+    "default": true
+  },
+  "delay_seconds": {
+    "description": "发送验证码前延迟的秒数",
+    "type": "float",
+    "default": 0,
+    "slider": {
+      "min": 0,
+      "max": 30,
+      "step": 0.5
+    }
+  },
+  "custom_patterns": {
+    "description": "自定义验证码匹配表达式列表",
+    "type": "list",
+    "hint": "每一行写一个正则，必须包含至少一个捕获组，例如：请在\\d+分钟内输入验证码\\s*([0-9A-Za-z]{4,8})",
+    "default": []
+  }
+}
