@@ -15,21 +15,7 @@
 
 ## 安装方式
 
-1. 将本插件目录放入 AstrBot 插件目录：
-
-   ```text
-   AstrBot/
-     data/
-       plugins/
-         auto_captcha_responder/
-           auto_captcha_responder/
-             main.py
-             __init__.py
-             metadata.yaml
-             _conf_schema.json
-             readme.md
-   ```
-
+1. 网页上传插件
 2. 启动 AstrBot（或在 WebUI 中重载插件）。
 3. 在 AstrBot WebUI 的“插件管理”中找到“自动验证码回复”插件，启用并完成配置。
 
@@ -97,3 +83,4 @@
 ## 许可证
 
 本插件默认遵循与 AstrBot 插件生态相同的开源许可证；如需更改，请在 `metadata.yaml` 中补充完整的版权和仓库信息。***
+
